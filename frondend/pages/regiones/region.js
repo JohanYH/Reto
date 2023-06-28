@@ -34,7 +34,8 @@ function insertarRegion(e) {
     const idDep = document.querySelector("#Depfrom").value
     
     const registro ={
-        nombreReg
+        nombreReg,
+        idDep
     }
 
     if (validate(registro)) {
